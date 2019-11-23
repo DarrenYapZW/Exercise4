@@ -1,22 +1,101 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
-<h1>Projects</h1>
+<h1>About me</h1>
 <div class="row">
-{% for project in projects %}
-    <div class="col-md-4">
-        <div class="card mb-2">
-            <img class="card-img-top" src="{% static project.image %}">
-            <div class="card-body">
-                <h5 class="card-title">{{ project.title }}</h5>
-                <p class="card-text">{{ project.description }}</p>
-                <a href="{% url 'project_detail' project.pk %}"
-                   class="btn btn-primary">
-                    Read More
-                </a>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
+Hi, I'm darren from Ngee Ann Polytechnic. I am currently studying diploma of Information technology. My interest is martial arts and collecting playing cards. My hobbies is doing things that interest me.
+</div>
+<h1>Resume</h1>
+<div class="row">
+Darren Yap<br>
+271 Chua Chu Kang Avenue 2<br>
+Singapore 680271<br>
+Tel: 98318150 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: darren985k@gmail.com<br>
+======================================================<br>
+Education<br>
+<br>
+Ngee Ann Polytechnic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 2017 – Present<br> 
+Pursuing a Diploma in Information Technology<br>
+Expected Graduation Date: 2020<br>
+<br>
+ITE College West &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2015 – Jan 2017<br>
+Higher Nitec in Information Technology<br> 
+•	GPA: 3.4<br>
+<br>
+Work Experience<br>
+<br>
+Kimberly-Clark &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jun 2017 - Aug 2018<br> 
+Warehouse operator<br>
+-	Packed items into boxes<br>
+-	Operated case sealer machines<br>
+<br>
+ST Synthesis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aug – Aug 2017<br>
+Warehouse packer<br>
+-	Packed, wrapped and categorized items for distribution<br>
+<br>
+Pet Lovers Centre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dec 2016 – Apr 2017<br>
+Part-timer<br>
+-	Did cashier and reception duties<br>
+-	Sold products to customers<br>
+<br>
+TRT global solutions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jul 2016 – Sep 2016<br>
+Intern<br>
+-	Set up servers, and troubleshoot for efficient operation<br>
+-	Set up printer and routers for the company and its clients<br>
+<br>
+Sushi Tei &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mar 2016 – Jun 2016<br>
+Chef<br>
+-	Prepare and cook Tempura dishes and tendon rice dishes<br>
+<br>
+Co-Curricular Activities and Community Service<br>
+<br>
+Ngee Ann Polytechnic: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apr – Jul 2018<br>
+Community service at Sunshine Welfare Action Mission<br>
+-	Accompanied senior citizens and bonding activities<br>
+-	Designed a poster to showcase their memorable experiences<br>
+-	Put together a video of the bonding sessions with the elderly<br>
+<br>
+ITE College West: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 2015 – Dec 2016<br>
+Muay Thai<br>
+-	Trained on endurance and physical conditions<br>
+-	Learn how to master the muay thai moves<br>
+<br>
+Chestnut Drive Secondary School &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jan 2012 – Dec 2014<br>
+National Cadet Corp (3rd Sergeant)<br>
+-	Attended training camps to gain knowledge and skills<br>
+-	Learn shooting skills and safety requirements<br>
+<br>
+Certificates and Awards<br>
+<br>
+Gold Certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jan 2015<br> 
+For Community Involvement Programme<br> 
+<br>
+Bronze Certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jun - Aug 2014<br>
+For National Youth Achievement Award<br>
+<br>
+Certificate of Achievement &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jan – Dec 2013<br>
+For 1st in Science (Chemistry, Biology)<br>
+<br>
+Skills<br>
+<br>
+•	Software: C#, HTML, SQL, Python, Microsoft Word, Microsoft PowerPoint, Microsoft Excel<br>
+•	Languages: English (written and spoken), Mandarin (Spoken)<br>
+<br>				   
+<br>
+Referees<br>
+<br>
+1.	Ng Weng Choh<br>
+nwc@np.edu.sg<br>
++65 9616 5678<br>
+Mentor, Ngee Ann Polytechnic<br>
+535 Clementi Road Singapore 599489<br>
+<br>
+<br>
+2.	Chee Chong Woh<br>
+chongwoh@hotmail.com<br>
++65 9272 1191<br>
+adjunct Lecturer, Ngee Ann Polytechnic<br>
+535 Clementi Road Singapore 599489<br>
+<br>
 </div>
 {% endblock %}
