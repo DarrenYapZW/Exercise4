@@ -136,4 +136,4 @@ def test_accessible():
     driver.find_element_by_link_text("Projects done").click()
     assert "Projects done" in driver.title
     
-#yeah boi
+#yeah boy
